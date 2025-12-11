@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+    int x=2,n,sum=0;
+    scanf("%d",&n);
+    while(x<=n)
+    {
+        sum+=x;
+        x+=2;
+    }
+    printf("%d",sum);
+}
